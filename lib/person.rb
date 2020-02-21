@@ -4,5 +4,5 @@ class Person
 :wrist_size, :glove_size, :pant_length, :pant_width
 
 def initialization(hash)
-  hash.each do
+  hash.each { |key, value| }
 end
